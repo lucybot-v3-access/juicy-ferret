@@ -1,0 +1,8 @@
+options:
+  cors: true
+paths:
+  /news:
+    get:
+      action: hacker_news/getStories
+      input:
+        storyType: top
